@@ -1,0 +1,617 @@
+[
+    {
+        "title": "A Beginner's Guide to Kafka Performance in Cloud Environments",
+        "description": "In this session, we'll take a look at Kafka performance from an infrastructure perspective. How does your choice of storage, compute, and networking affect cluster throughput? How can you optimize for low cost or fast recovery? When is it better to scale up rather than to scale out brokers?",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/a-beginners-guide-to-kafka-performance-in-cloud-environments/", "speakers": [
+            { "name": "Steffen Hausmann", "company": "Materialize" }
+        ],
+        "tags": ["Performance", "Cloud"]
+    },
+    {
+        "title": "A Hitchhiker's Guide to Apache Kafka®",
+        "description": "We'll start off by understanding the importance of events and why we'd even want to build systems with them. Taking the concept of a key-value pair to model events, we'll explore topics, partitioning, and replication, and look at how to use the Producer and Consumer APIs.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/a-hitchhikers-guide-to-apache-kafka-r/", 
+        "speakers": [
+            { "name": "Lucia Cerchie", "company": "Confluent" }
+        ],
+        "tags": ["Core", "Producer", "Consumer"]
+    },
+    {
+        "title": "A Kafka Client's Request: There and Back Again",
+        "description": "By the end of this session, you'll know the ins and outs of the read and write requests that your Kafka clients make, making your next debugging or performance analysis session a breeze.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/a-kafka-clients-request-there-and-back-again/",
+        "speakers": [
+            { "name": "Danica Fine", "company": "Confluent" }
+        ],
+        "tags": ["Core", "Producer"]
+    },
+    {
+        "title": "A Practical Guide To End-to-End Tracing In Event Driven Architectures",
+        "description": "This talk will cover the following topics: <br/>- Distributed tracing concepts, including context propagation and the OpenTelemetry implementation stack<br/>- OpenTelemetry's Kafka instrumentation, what is supported out of the box, code examples, edge cases, challenges and solutions",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/a-practical-guide-to-end-to-end-tracing-in-event-driven-architectures/",
+        "speakers": [
+            { "name": "Roman Kolesnev", "company": "Confluent" }
+        ],
+        "tags": ["Analytics", "Operations"]
+    },
+    {
+        "title": "An Introduction to Kafka Cruise Control",
+        "description": "Join this session if you want to learn how to use Cruise Control to automate Kafka cluster management and make your team's life easier.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/an-introduction-to-kafka-cruise-control/",
+        "speakers": [
+            { "name": "Viktor Somogyi-Vass", "company": "Cloudera" }
+        ],
+        "tags": ["Operations", "Core"]
+    },
+    {
+        "title": "Apache Kafka®: A Year in Review and A Look Forward",
+        "description": "Join us as we take a look back at the last year in Kafka with members of our Apache Kafka committee. We will review some of the most influential KIPs and talk about the upcoming changes to expect in the project.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/apache-kafka-r-a-year-in-review-and-a-look-forward/",
+        "speakers": [
+            { "name": "Amanda Gilbert", "company": "Confluent" },
+            { "name": "Chris Egerton", "company": "Aiven" },
+            { "name": "Bruno Cadonna", "company": "Confluent" },
+            { "name": "Sophie Blee-Goldman", "company": "N/A" },
+            { "name": "Tom Bentley", "company": "Red Hat" },
+            { "name": "Matthias J. Sax", "company": "Confluent" },
+            { "name": "Mickael Maison", "company": "Red Hat" }
+        ],
+        "tags": ["Core", "Streams", "Connect", "KRaft"]
+    },
+    {
+        "title": "Apples and Oranges - Comparing Kafka Streams and Flink",
+        "description": "In this talk, attendees will learn the information needed to match their event streaming requirements and objectives with the correct streaming framework. You'll leave with the knowledge of both Kafka Streams and Flink's strengths and weaknesses.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/apples-and-oranges-comparing-kafka-streams-and-flink/",
+        "speakers": [
+            { "name": "Bill Bejeck", "company": "Confluent" }
+        ],
+        "tags": ["Streams", "Flink"]
+    },
+    {
+        "title": "Better Integration Tests for Kafka Applications with Testcontainers",
+        "description": "In this session, we explore how Testcontainers libraries allow you programmatically create, manage the lifecycle, and configure ephemeral instances of Kafka. From spinning up individual Kafka services to creating complex cluster topologies, your tests control the environment they require and run.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/better-integration-tests-for-kafka-applications-with-testcontainers/",
+        "speakers": [
+            { "name": "Oleg Šelajev", "company": "AtomicJar" }
+        ],
+        "tags": ["Operations", "Core"]
+    },
+    {
+        "title": "Build an Event-driven Microservices with Apache Kafka & Apache Flink",
+        "description": "In this talk, learn how to decouple the communication between disparate microservices using Apache Kafka and manage the state of the events separately using Apache Flink Stateful functions.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/build-an-event-driven-microservices-with-apache-kafka-and-apache-flink",
+        "speakers": [
+            { "name": "Ali Alemi", "company": "AWS" }
+        ],
+        "tags": ["Flink"]
+    },
+    {
+        "title": "Building Real-time Push APIs Using Kafka as the Customer Facing Interface",
+        "description": "The talk will be about how we have successfully used Kafka as the customer facing interface for our Push API, achieving the Best Automotive API 2022 (API:World) and our lessons learned after 2 years in production.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/building-real-time-push-apis-using-kafka-as-the-customer-facing-interface/",
+        "speakers": [
+            { "name": "Javier Moreno Molina", "company": "Mercedes Benz" }
+        ],
+        "tags": ["Event-Driven"]
+    },
+    {
+        "title": "Case-Study: Building Real-Time Applications at Scale-Cyclist Crash Detection",
+        "description": "Using telemetry data collected from a fitness app, we'll demonstrate how we used a combination of Apache Kafka and Python-based microservices running on Kubernetes to build a pipeline for processing and analyzing this data in real-time.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/case-study-building-real-time-applications-at-scale-cyclist-crash-detection/",
+        "speakers": [
+            { "name": "Tomas Neubauer", "company": "Quix" }
+        ],
+        "tags": ["Event-Driven", "Analytics"]
+    },
+    {
+        "title": "Chill, Distill, No Overkill: Best Practices to Stress Test Kafka",
+        "description": "In the session, we will cover ways to:<br/>- Define parameters and variables before beginning<br/>- Accommodate for changing conditions - brokers, applications, config, network<br/>- Overlap infrastructure, test design, latency, and throughput",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/chill-distill-no-overkill-best-practices-to-stress-test-kafka/",
+        "speakers": [
+            { "name": "Siva Kunapuli", "company": "Confluent" }
+        ],
+        "tags": ["Performance", "Core"]
+    },
+    {
+        "title": "Consistent, High-throughput, Real-time Calculation Engines Using Kafka Streams",
+        "description": "During this session, I will cover how, at Morgan Stanley, we built a real-time, microservices based Liquidity Management platform using event streaming with Kafka Streams API, to tackle high volumes of data and to perform calculations on cross domain events, spanning wide time windows.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/consistent-high-throughput-real-time-calculation-engines-using-kafka-streams/",
+        "speakers": [
+            { "name": "Kamlesh Shah", "company": "Morgan Stanley" }
+        ],
+        "tags": ["Performance", "Streams"]
+    },
+    {
+        "title": "Dataflows for Machine Learning Operations",
+        "description": "In this talk, we identify dataflow architectural principles to address these demands and discuss their application in an open-source ecosystem. We show how to create a decentralized dataflow engine underpinned by Kafka and the Kafka Streams client library.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/dataflows-for-machine-learning-operations/",
+        "speakers": [
+            { "name": "Alex Rakowski", "company": "Seldon Technologies Ltd" },
+            { "name": "Andrei Paleyes", "company": "University of Cambridge" }
+        ],
+        "tags": ["Streams", "Operations", "Machine-Learning"]
+    },
+    {
+        "title": "Designing a Data Mesh with Kafka",
+        "description": "In this talk we will describe how we managed to apply Data Mesh founding principles to our operational plane, based on Kafka. Consequently, we have gained value from these principles more broadly than just analytics. An example of this is treating data as-a-product.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/designing-a-data-mesh-with-kafka/",
+        "speakers": [
+            { "name": "Paul Makkar", "company": "Saxo Bank" },
+            { "name": "Rahul Gulati", "company": "Saxo Bank" }
+        ],
+        "tags": ["Analytics", "Connect", "Cloud"]
+    },
+    {
+        "title": "Don't Let Kafka Be A Cluster: Kafka Chaos Experimentation",
+        "description": "Attendees learn in detail how real world events were varied for the experiment, including design goals, hard trade-offs, and safety mechanisms necessary for the load tool to adhere to Chaos Engineering principles. We show how the results were analyzed to support or debunk the hypothesis.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/dont-let-kafka-be-a-cluster-kafka-chaos-experimentation/",
+        "speakers": [
+            { "name": "Justin Fetherolf", "company": "Verica" }
+        ],
+        "tags": ["Core", "Operations"]
+    },
+    {
+        "title": "End-to-end Streaming Between gRPC Services Via Kafka",
+        "description": "This session is targeted towards developers interested in learning how to integrate gRPC with Kafka event streaming; securely, reliably and scalably.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/end-to-end-streaming-between-grpc-services-via-kafka/",
+        "speakers": [
+            { "name": "John Fallows", "company": "Aklivity" }
+        ],
+        "tags": ["Event-Driven"]
+    },
+    {
+        "title": "Exactly-once Stream Processing Done Right",
+        "description": "In this talk, we will dive into technical details to shed some light on the above questions. We approach the topic from a conceptual point of view, explain the challenges Kafka Connect faces when it comes to exactly-once, discuss how external source and sink systems can be integrated.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/exactly-once-stream-processing-done-right/",
+        "speakers": [
+            { "name": "Matthias J. Sax", "company": "Confluent" }
+        ],
+        "tags": ["Core", "Streams"]
+    },
+    {
+        "title": "Exactly-Once, Again: Adding EOS Support for Kafka Connect Source Connectors",
+        "description": "In this talk, learn how KIP-618 made exactly-once source connectors possible. Topics covered will include an overview of exactly-once support in Kafka's client libraries, a brief refresher on the source connector API, a deep dive into some of the internal workings of Kafka Connect.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/exactly-once-again-adding-eos-support-for-kafka-connect-source-connectors/",
+        "speakers": [
+            { "name": "Chris Egerton", "company": "Aiven" }
+        ],
+        "tags": ["Core", "Connect"]
+    },
+    {
+        "title": "From Monolithic Orchestrator to Streaming with Microservices",
+        "description": "This project was all about replacing a huge and complex Business Process Management tool, an orchestrator of our internal logistic flows. And when we say huge, we really mean it: more than 24 processes, 150 millions of tyres moved representing 10 billions € of Michelin turnover.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/from-monolithic-orchestrator-to-streaming-with-microservices/",
+        "speakers": [
+            { "name": "Olivier Jauze", "company": "Michelin" },
+            { "name": "Valerie Servaire", "company": "Michelin" }
+        ],
+        "tags": ["Event-Driven", "Connect", "Streams"]
+    },
+    {
+        "title": "Highly Available Kafka Consumers and Kafka Streams on Kubernetes",
+        "description": "In this talk I will introduce a simple consumer implementation with a default configuration and discuss the KIPs and features that have been introduced over time to limit how the hostile world of cloud computing can impact your real-time consuming applications.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/highly-available-kafka-consumers-and-kafka-streams-on-kubernetes/",
+        "speakers": [
+            { "name": "Adrian McCague", "company": "Zopa Bank" }
+        ],
+        "tags": ["Consumer", "Connect", "Kubernetes"]
+    },
+    {
+        "title": "How to Isolate Tenants in a Data Distribution Platform",
+        "description": "I will walk you through how we have achieved tenant isolation in our architecture where we have isolated tenants on an architecture level through Kafka topics and on a software level through threads. We have successfully used this design for years but as with all designs, it has its limitations.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/how-to-isolate-tenants-in-a-data-distribution-platform/",
+        "speakers": [
+            { "name": "Joanna Eriksson", "company": "Schibsted AS" }
+        ],
+        "tags": ["Core"]
+    },
+    {
+        "title": "Implementing Exactly-once Delivery and Escaping Kafka Rebalance Storms",
+        "description": "In this talk, we'll walk you through how we implemented exactly-once delivery with Kafka by managing Kafka transactions the right way, and how we escaped endless rebalance storms when running hundreds of consumers on the same Kafka topic.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/implementing-exactly-once-delivery-and-escaping-kafka-rebalance-storms/",
+        "speakers": [
+            { "name": "Yulia Antonovsky", "company": "Akamai" }
+        ],
+        "tags": ["Core", "Streams"]
+    },
+    {
+        "title": "Implementing Real-Time Analytics with Kafka Streams",
+        "description": "In our talk, we discuss different approaches and highlight an indexing strategy for guaranteeing the order of a range query. We will discuss the pros and cons and finally demonstrate a real-world example of our solution.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/implementing-real-time-analytics-with-kafka-streams/",
+        "speakers": [
+            { "name": "Ramin Gharib", "company": "bakdata GmbH" }
+        ],
+        "tags": ["Core", "Streams", "Analytics"]
+    },
+    {
+        "title": "Integrating Sparkplug IoT Edge of Network Nodes with Kafka",
+        "description": "In this session, we have a look at a real-world IoT project in which hundreds of residential building complexes are equipped with thousands of sensors and actuators that communicate via Kafka to an optimization system to reduce energy consumption and eventually help to protect our planet.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/integrating-sparkplug-iot-edge-of-network-nodes-with-kafka/",
+        "speakers": [
+            { "name": "Yves Kurz", "company": "PAUL Tech AG" }
+        ],
+        "tags": ["Connect", "Analytics"]
+    },
+    {
+        "title": "Is Pseudonymization The Answer To Your GDPR Problems?",
+        "description": "In order to have a scalable solution we are using the standard Kafka connect architecture with a sink as the base. Records that are received by this sink are pseudonymized and in the meantime, a second record is created.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/is-pseudonymization-the-answer-to-your-gdpr-problems/",
+        "speakers": [
+            { "name": "Pieter van der Meer", "company": "Dataworkz" }
+        ],
+        "tags": ["Connect"]
+    },
+    {
+        "title": "Kafka Streams Rebalances and Assignments: The Whole Story",
+        "description": "This talk aims to completely demystify the system from an operational perspective. You will learn what is really happening across Kafka and Kafka Streams, how to interpret the logs and metrics, and how to adjust the configs to achieve your desired outcomes.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/kafka-streams-rebalances-and-assignments-the-whole-story/",
+        "speakers": [
+            { "name": "Alieh Saeedi", "company": "Confluent" },
+            { "name": "John Roesler", "company": "Confluent" }
+        ],
+        "tags": ["Core", "Streams"]
+    },
+    {
+        "title": "Lessons Learned Scaling Stateful Kafka Streams Topologies",
+        "description": "I will explain a bunch of actions we have done that helped us scale our topologies to process hundreds of millions of listings: Use kubernetes StatefulSets, tune RocksDB configurations, use Horizontal Pod Scaling wisely, activate consumer Rack Awareness, and more.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/lessons-learned-scaling-stateful-kafka-streams-topologies/",
+        "speakers": [
+            { "name": "Ferran Galí i Reniu", "company": "LIFULL Connect" }
+        ],
+        "tags": ["Streams", "Kubernetes"]
+    },
+    {
+        "title": "Migrating Your System to the Different Kafka Platforms Available",
+        "description": "In this talk we will go over our experience in migrating all these technologies and the pitfalls and powerups that we encountered along the way.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/migrating-your-system-to-the-different-kafka-platforms-available/",
+        "speakers": [
+            { "name": "Bhavesh Sooka", "company": "Synthesis Software Technologies" },
+            { "name": "Jonathan Lew", "company": "Synthesis Software Technologies" }
+        ],
+        "tags": ["Cloud", "Operations"]
+    },
+    {
+        "title": "MirrorMaker: Beyond the Basics",
+        "description": "At the end of the session you will understand the capabilities of MirrorMaker and the process of building powerful mirroring scenarios with this tool.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/mirrormaker-beyond-the-basics/",
+        "speakers": [
+            { "name": "Mickael Maison", "company": "Red Hat" }
+        ],
+        "tags": ["Connect", "MirrorMaker"]
+    },
+    {
+        "title": "Observability of Streaming Applications",
+        "description": "During a step-by-step demo, we will look into different real-life examples and scenarios to demonstrate how to bring the observability of your Kafka applications to the next level.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/observability-of-streaming-applications/",
+        "speakers": [
+            { "name": "Kosta Chuturkov", "company": "ING" },
+            { "name": "Tim van Baarsen", "company": "ING" }
+        ],
+        "tags": ["Operations", "Streams"]
+    },
+    {
+        "title": "Playing with Xbox Data",
+        "description": "A fun introduction to the world of Kafka Connect and Kafka Streams by using it to process data from Xbox Live. Gaming is a social activity, so Xbox includes a social aspect. Details about what games you play and when you're playing are shared with your friends on the Xbox Live service.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/playing-with-xbox-data/",
+        "speakers": [
+            { "name": "Dale Lane", "company": "IBM" }
+        ],
+        "tags": ["Connect"]
+    },
+    {
+        "title": "Pragmatic Patterns (and Pitfalls) for Event Streaming in Brownfield Environments",
+        "description": "Armed with these pragmatic best practices, you will be able to successfully bring eventing into your stack and avoid turning your brownfield…into a minefield.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/pragmatic-patterns-and-pitfalls-for-event-streaming-in-brownfield/",
+        "speakers": [
+            { "name": "Anna McDonald", "company": "Confluent" }
+        ],
+        "tags": ["Event-Driven", "Streams"]
+    },
+    {
+        "title": "Pushing Apache Kafka to the Limit",
+        "description": "We can all agree that Apache Kafka is an incredibly useful and powerful technology that's found its way into the heart of a number of companies spanning numerous industries. To the untrained eye, there's little that Kafka can't do. But as with any technology, there are limitations.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/pushing-apache-kafka-to-the-limit/",
+        "speakers": [
+            { "name": "Amanda Gilbert", "company": "Confluent" },
+            { "name": "Anna McDonald", "company": "Confluent" },
+            { "name": "Daan Gerits", "company": "Shono.io" },
+            { "name": "Kai Waehner", "company": "Confluent" },
+            { "name": "Kamlesh Shah", "company": "Morgan Stanley" }
+        ],
+        "tags": ["Streams", "Performance", "Core"]
+    },
+    {
+        "title": "Real-time Event Processing with Python",
+        "description": "In this session, we will look at several techniques that we can use to build real-time applications with just Apache Kafka and the confluent-kafka Python package. You may be surprised at how far we can go with these simple tools, but we will also discuss the challenges you might face.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/real-time-event-processing-with-python/",
+        "speakers": [
+            { "name": "Dave Klein", "company": "Confluent"}
+        ],
+        "tags": ["Event-Driven"]
+    },
+    {
+        "title": "Real-time Fraudulent Trips Detection",
+        "description": "In this talk, we are going to focus on how FREENOW builds an event stream processing pipeline with Kafka Streams and Kafka Connect on Kubernetes to detect GPS locations based fraudulent trips in real-time.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/real-time-fraudulent-trips-detection/",
+        "speakers": [
+            { "name": "Xueyao Jiang", "company": "FREENOW" }
+        ],
+        "tags": ["Streams", "Connect"]
+    },
+    {
+        "title": "Reducing Impact of Single Broker Failures in Kafka",
+        "description": "We go in depth in the different scenarios that allow this to happen, the configuration which we had chosen in hopes of the best which made these outages possible or worse, and what we did to reduce the impact and still keep Kafka configured as desired.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/reducing-impact-of-single-broker-failures-in-kafka/",
+        "speakers": [
+            { "name": "Michelle Valentinova", "company": "New Relic" }
+        ],
+        "tags": ["Core", "Operations"]
+    },
+    {
+        "title": "Reliable Message Reprocessing Patterns for Kafka",
+        "description": "This talk discusses several error-handling patterns you can implement in Kafka consumer applications. We will explore different approaches to handling transient and non-transient errors and highlight the use of dead letter topics in Kafka for message reprocessing.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/reliable-message-reprocessing-patterns-for-kafka/",
+        "speakers": [
+            { "name": "Dunith Dhanushka", "company": "Redpanda" }
+        ],
+        "tags": ["Consumer", "Operations"]
+    },
+    {
+        "title": "Restoring Restoration's Reputation in Kafka Streams",
+        "description": "In this talk, we will explain how Kafka Streams currently restores local state and processes records. We will show how we decouple processing from restoring by moving restoration to a dedicated thread and how throughput profits from this decoupling.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/restoring-restorations-reputation-in-kafka-streams/",
+        "speakers": [
+            { "name": "Bruno Cadonna", "company": "Confluent" },
+            { "name": "Lucas Brutschy", "company": "Confluent" }
+        ],
+        "tags": ["Streams", "Operations"]
+    },
+    {
+        "title": "Running Kafka as a Native Binary Using GraalVM",
+        "description": "In this session, we will talk about kafka-native, which leverages GraalVM native image for compiling Kafka broker to native executable using Quarkus framework. After going through some implementation details, we will focus on how it can be used in a Docker container with Testcontainers.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/running-kafka-as-a-native-binary-using-graalvm/",
+        "speakers": [
+            { "name": "Ozan Günalp", "company": "Red Hat" }
+        ],
+        "tags": ["Performance", "Operations"]
+    },
+    {
+        "title": "Shipping 1000+ Streaming Data Pipelines To Production",
+        "description": "We walk you through our journey of adopting Apache Kafka®, Kafka Connect, and Kafka Streams. We discuss the challenges that we faced and how we overcame them. Over the course of the talk, we provide answers to important questions.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/shipping-1000-streaming-data-pipelines-to-production/",
+        "speakers": [
+            { "name": "Hakan Lofcali", "company": "DataCater" },
+            { "name": "Stefan Sprenger", "company": "DataCater" }
+        ],
+        "tags": ["Connect", "Streams", "Operations"]
+    },
+    {
+        "title": "Storage Capacity Management on Multi-tenant Kafka Cluster",
+        "description": "In this end to end story, I will be presenting what the issues were at the beginning, how we came up with a plan, designed, implemented, and applied to our existing clusters smoothly, now how the clients can monitor and even get alerted before their reserved capacity has been reached.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/storage-capacity-management-on-multi-tenant-kafka-cluster/",
+        "speakers": [
+            { "name": "Nurettin Omeroglu", "company": "Booking.com" }
+        ],
+        "tags": ["Operations"]
+    },
+    {
+        "title": "Streaming Infrastructure at Wise",
+        "description": "In this talk, we will discuss the technical details behind Wise's stream processing platform, such as security, how we run Apache Kafka brokers on Kubernetes, Kafka Streams applications deployment model with high availability, and different self-service tools we have developed.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/streaming-infrastructure-at-wise/",
+        "speakers": [
+            { "name": "Levani Kokhreidze", "company": "Wize" }
+        ],
+        "tags": ["Streams", "Operations", "Kubernetes"]
+    },
+    {
+        "title": "The Dark and Dirty Side of Fixing Uneven Partitions",
+        "description": "Come to this talk to learn what to do when the data distribution across topic partitions is badly broken and as a result significantly hurt consuming applications performances, increasing lag and slowing data processing.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/the-dark-and-dirty-side-of-fixing-uneven-partitions/",
+        "speakers": [
+            { "name": "Olena Babenko", "company": "Aiven" },
+            { "name": "Olena Kutsenko", "company": "Aiven" }
+        ],
+        "tags": ["Consumer", "Operations"]
+    },
+    {
+        "title": "The Next Generation of the Consumer Rebalance Protocol",
+        "description": "This talk will unveil the next generation of the consumer rebalance protocol for Apache Kafka (KIP-848) that addresses the shortcomings of the current protocol.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/the-next-generation-of-the-consumer-rebalance-protocol-2023/",
+        "speakers": [
+            { "name": "David Jacot", "company": "Confluent" }
+        ],
+        "tags": ["Consumer", "Core"]
+    },
+    {
+        "title": "The Possibilities and Pitfalls of Writing Your Own State Stores",
+        "description": "Join me in a journey of ups and downs that starts with a simple requirement (host an API), through implementing a custom state store and finishes off by describing the challenges we encountered getting our APIs deployed. Don't expect all “roses and sunshine”.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/the-possibilities-and-pitfalls-of-writing-your-own-state-stores/",
+        "speakers": [
+            { "name": "Daan Gerits", "company": "Shono.io" }
+        ],
+        "tags": ["Streams", "Core"]
+    },
+    {
+        "title": "Timely Auto-Scaling of Kafka Streams Pipelines with Remotely Connected APIs",
+        "description": "In this talk, we first give an overview of the caveats when integrating such services in Kafka Streams and basic approaches for mitigating those. Second, we present our solution for the timely scaling of complex Kafka Streams pipelines in conjunction with remotely connected APIs.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/timely-auto-scaling-of-kafka-streams-pipelines-with-remotely-connected-apis/",
+        "speakers": [
+            { "name": "Torben Meyer", "company": "bakdata GmbH" }
+        ],
+        "tags": ["Operations", "Streams"]
+    },
+    {
+        "title": "Unveiling the Inner Workings of Apache Kafka® with Flamegraphs",
+        "description": "In this talk, we will explore the use of flamegraphs as a tool for understanding the internals of Apache Kafka and for identifying performance issues. Flamegraphs are a visualization technique that allows you to see the relative usage of CPU and memory by different functions in a program.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/unveiling-the-inner-workings-of-apache-kafka-r-with-flamegraphs/",
+        "speakers": [
+            { "name": "Christo Lolov", "company": "AWS" },
+            { "name": "Divij Vaidya", "company": "AWS" }
+        ],
+        "tags": ["Performance", "Core"]
+    },
+    {
+        "title": "Upleveling Analytics with Kafka",
+        "description": "In this session, I will cover my personal journey of how I went from 8000 lines of Excel to learning about Kafka and incorporating it into my analytics pipelines. I'll explore what topics (pun-intended) an analyst should know about Kafka to build an end-to-end analytics pipeline.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/upleveling-analytics-with-kafka/",
+        "speakers": [
+            { "name": "Amy Chen", "company": "dbt Labs" }
+        ],
+        "tags": ["Analytics"]
+    },
+    {
+        "title": "Using Machine Learning to Govern Kafka Clients",
+        "description": "You will learn ideas for client governance and linting of Kafka client application as part of this talk. Kafka client governance is essential for the smooth operation of a financial services organization and for maintaining the trust of its customers.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/using-machine-learning-to-govern-kafka-clients/",
+        "speakers": [
+            { "name": "Shu Wang", "company": "Fidelity Investments" },
+            { "name": "UmaMahesh Sistu", "company": "Fidelity Investments" }
+        ],
+        "tags": ["Machine-Learning", "Event-Driven"]
+    },
+    {
+        "title": "Versioned State Stores in Kafka Streams",
+        "description": "This talk will introduce versioned state stores starting from the basics, discuss the stream-table join use case as motivation, operational considerations for users who'd like to use them, briefly touch on implementation in doing so.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/versioned-state-stores-in-kafka-streams/",
+        "speakers": [
+            { "name": "Victoria Xia", "company": "Confluent" }
+        ],
+        "tags": ["Streams", "Core"]
+    },
+    {
+        "title": "Where's My Message?",
+        "description": "Join us on a journey where we will share our hard-earned experience, as well as just how to tackle that dread question which just seems to keep popping up: 'where's my message?' Did it ever reach Kafka? Can Kafka really lose a message? Is Kafka down?",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/wheres-my-message/",
+        "speakers": [
+            { "name": "David Navalho", "company": "Marionete" },
+            { "name": "Ricardo Henriques", "company": "Marionete" }
+        ],
+        "tags": ["Core", "Operations"]
+    },
+    {
+        "title": "You Put *What* in Your Stream?! Patterns and Practices for Event Design",
+        "description": "This talk will explore the real-time analytics technology space from the perspective of the software developer that wants real-time insights in their software. We'll cover the main categories, how these technologies work and their strengths and weaknesses.",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/you-put-what-in-your-stream-patterns-and-practices-for-event-design/",
+        "speakers": [
+            { "name": "Adam Bellemare", "company": "Confluent" }
+        ],
+        "tags": ["Event-Driven"]
+    },
+    {
+        "title": "You've Got Mail!",
+        "description": "If you're interested in a little bit of hardcore tech and how event driven architecture works in massive scale in a highly secure GDPR compliant environment, then this talk is for you!",
+        "event": "Kafka Summit London",
+        "year": "2023",
+        "link": "https://www.confluent.io/events/kafka-summit-london-2023/youve-got-mail/",
+        "speakers": [
+            { "name": "Michael van der Haven", "company": "CGI" }
+        ],
+        "tags": ["Event-Driven"]
+    }
+]

@@ -1,0 +1,40 @@
+/* @media (prefers-color-scheme: light) {
+    body {
+        background-color: white;
+        color: black;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: black;
+        color: white;
+    }
+} */
+
+body {
+    background-color: #ECEAE3;
+    font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+}
+
+header {
+    margin-top: 1em;
+}
+
+li.talk:nth-child(odd) {
+    background-color: #EDEDE9;
+}
+li.talk:nth-child(even) {
+    //background-color: #D6CCC2;
+    background-color: #FFFFFF;
+}
+li {
+    list-style: none;
+    margin-bottom: 1em;
+}
+ul {
+    padding-left: 0;
+}
+
+footer {
+    text-align: center;
+}
